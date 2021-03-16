@@ -92,7 +92,7 @@ a {
     max-width: 470px;
 }
 
-.app__btn {
+.top__btn {
 
     text-transform: uppercase;
     color: #FEFEFE;
@@ -101,7 +101,7 @@ a {
     transition: all .6s;
 }
 
-.app__btn:hover {
+.top__btn:hover {
     background: #FEFEFE;
     color: #C5AC2D;
     border: 1px solid #C5AC2D;
