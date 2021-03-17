@@ -177,7 +177,7 @@ a {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
     transition: all .6s;
 }
@@ -188,19 +188,17 @@ a {
 
 .top__link {
     color: #1B1818;
-    transition: all .4s;
-    border-bottom: 1px solid #1B1818 ;
-}
-.top__link:hover {
-    border-bottom: 3px double  #1B1818;
+    border-bottom: 1px solid #1B1818;
 }
 
 .top__link+.top__link {
     margin-left: 20px;
 }
-.condition__box{
-    margin:200px 0;
+
+.condition__box {
+    margin: 200px 0;
 }
+
 .condition__content {
 
     text-align: center;
