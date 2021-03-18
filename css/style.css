@@ -225,10 +225,6 @@ a {
 
 }
 
-.condition__items {
-    display: flex;
-}
-
 .condition__item {
     width: 250px;
     min-height: 350px;
@@ -239,10 +235,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-.condition__item + .condition__item {
-    margin-left: 50px;
 }
 
 .condition__item-numb {
