@@ -23,7 +23,6 @@ a {
 .header {
     background: #332208;
 }
-
 .header__inner {
     display: flex;
     justify-content: space-between;
@@ -464,4 +463,23 @@ a {
     display: inline-block;
     position: relative;
     border: none;
+}
+.footer{
+    padding: 75px 0 24px;
+    height: 200px;
+    background:#332208; 
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+.footer__social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer__social-link{
+    margin: 0 15px;
 }
